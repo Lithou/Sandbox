@@ -1,30 +1,33 @@
 {
   "main": {
-    "id": "6ca047da7aea5246",
+    "id": "92ddecd0f852b8b7",
     "type": "split",
     "children": [
       {
-        "id": "4092a8df1192f32a",
+        "id": "292348424cc99985",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Readme.md",
+            "mode": "source"
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ec4db8fdca266b2c",
+    "id": "5f41d3f87766f034",
     "type": "split",
     "children": [
       {
-        "id": "e89bf639e47370df",
+        "id": "7128414d6f2dff1e",
         "type": "tabs",
         "children": [
           {
-            "id": "5ec109616b89a7da",
+            "id": "1e6d06770f851719",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -32,7 +35,7 @@
             }
           },
           {
-            "id": "e36b940954124c60",
+            "id": "174ca30db77593a8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,33 +56,58 @@
     "width": 300
   },
   "right": {
-    "id": "b77d6b8bc82b6828",
+    "id": "64ecbd35bd271548",
     "type": "split",
     "children": [
       {
-        "id": "534bcc27d8a185ec",
+        "id": "91bef4082e160413",
         "type": "tabs",
         "children": [
           {
-            "id": "d082d6ca78821b97",
+            "id": "07dd03a1cf5f8e08",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "16c56ecce6e9e06c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50849d80b2158500",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 376
   },
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Readme.md.md",
+    "Untitled.md",
+    "Test Pages/Page Layout Test.md",
+    "stopwatch.md",
+    "Random Damage Type Table.md",
+    "Page Layout Test.md",
+    "Ideas to test.md",
+    "Untitled 1.md",
+    "test.jpg",
+    "logo.png"
+  ]
 }

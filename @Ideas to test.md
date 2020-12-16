@@ -1,0 +1,23 @@
+# Brain Dump of Ideas
+
+- have a table off to the side in the margin that is fixed for summary info (think wikipedia's side bar.)
+- border radius and clip path to make distinct blocks of each heading/subheading
+	- break on a specific heading level? 
+	- H1 always sepparate, H2 or H3 controls distinct blocks
+- Find a way to make columns work well
+- solidify using a pipe to call arguments for images and embeds 
+	- regex of "contains" for each
+	- don't need all combinations, just each option
+	- use like arguments/flags "test.jpg| -left -small -bordered -margin"
+- Work with CSS on tables to make unique structures
+	- can you make TR and TD change position?
+	- can you make a TD position absolute 
+	- Title a heading? (Col span maybe?)
+- apply attributes to all divs to transclude children together. 
+	- Would allow images inline with a paragraph
+	- potentially better control over breaks
+	- can limit to one type of class
+- CSS page class as arguments for snippets
+	- can you use contains argument for class? 
+	- allow multiple options for handling preview
+- Transparent Image options
