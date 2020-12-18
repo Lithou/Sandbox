@@ -1,0 +1,29 @@
+/* Never said all of my stuff would be useful :)  */
+
+::-webkit-scrollbar {
+     width: 30px; /* width of vertical scrollbars  */
+    height: 30px; /* height of horizontal scrollbars  */
+    border-radius: 50px; /* roundedness of scrollbar area */
+    background-color: green; /* color of scrollbar area  */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red; /* color of scrollbar (part that moves) */
+    border-radius: 50px; /* roundedness of scrollbar */
+}
+
+p {
+    visibility: initial;
+    background-color: red;
+    animation-name: mas;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes mas {
+    0%   {background-color: red;}
+    25%  {background-color: green;}
+    50%  {background-color: red;}
+    75% {background-color: green;}
+    100%  {background-color: red;}
+  }
