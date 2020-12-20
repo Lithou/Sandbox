@@ -2,9 +2,6 @@
 cssclass: readme
 
 ---
-[[Generic - H1 with 2 paragraphs|Gen Link Testing]]
-
----
 
 
 # The Problem of Perfection

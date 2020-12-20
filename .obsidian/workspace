@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Test Pages/Generic - H1 with 2 paragraphs.md",
+            "file": "Test Pages/Image Tape.md",
             "mode": "preview"
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "64ecbd35bd271548",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test Pages/Generic - H1 with 2 paragraphs.md",
+                "file": "Test Pages/Image Tape.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +100,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Test Pages/Tape.md",
     "Test Pages/Generic - H1 with 2 paragraphs.md",
+    "Test Pages/Untitled.md",
+    "Readme.md",
     "Test References/Random Damage Type Table.md",
     "Test References/stopwatch.md",
-    "Readme.md",
     "Readme.pdf",
     "Readme.md.md",
     "Untitled.md",
-    "Test Pages/Page Layout Test.md",
-    "stopwatch.md",
-    "Random Damage Type Table.md"
+    "Test Pages/Page Layout Test.md"
   ]
 }
