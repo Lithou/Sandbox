@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+    visibility: hidden;
+     width: 10px; /* width of vertical scrollbars  */
+    height: 100px; /* height of horizontal scrollbars  */
+    border-radius: 50px; /* roundedness of scrollbar area */
+    background-color: green; /* color of scrollbar area  */
+}
+
+::-webkit-scrollbar-thumb {
+    visibility: hidden;
+    background-color: red; /* color of scrollbar (part that moves) */
+    border-radius: 0px; /* roundedness of scrollbar */
+}
+
+::-webkit-scrollbar:hover {
+visibility: initial;
+}
+::-webkit-scrollbar-thumb:hover {
+    visibility: initial;
+}
+
+/* ::selection {
+    background-color: green;
+    --text-selection: green;
+} */
