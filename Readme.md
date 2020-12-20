@@ -1,3 +1,12 @@
+---
+cssclass: readme
+
+---
+[[Generic - H1 with 2 paragraphs|Gen Link Testing]]
+
+---
+
+
 # The Problem of Perfection
 
 I love tinkering around with things and experimenting with CSS brings me lots of excitement and joy. I like sharing cool ideas I’ve had or promising discoveries. When I share something, others will have incredible improvements or creative uses for my ideas that I never would have thought of on my own.
