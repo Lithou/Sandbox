@@ -4,16 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "190c629aed841918",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Test Pages/Image Tape.md",
-            "mode": "preview"
+        "id": "6d0c16cdd21fc08e",
+        "type": "split",
+        "children": [
+          {
+            "id": "190c629aed841918",
+            "type": "leaf",
+            "dimension": 25.775480059084195,
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Snippet Examples/Image Flags.md",
+                "mode": "source"
+              }
+            },
+            "group": "bd8d3a2cf98cb537"
+          },
+          {
+            "id": "f7093e46a26fdee4",
+            "type": "leaf",
+            "dimension": 74.2245199409158,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Snippet Examples/Image Flags.md",
+                "mode": "preview"
+              }
+            },
+            "group": "bd8d3a2cf98cb537"
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -69,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test Pages/Image Tape.md",
+                "file": "Snippet Examples/Image Flags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,15 +122,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Test Pages/Tape.md",
-    "Test Pages/Generic - H1 with 2 paragraphs.md",
-    "Test Pages/Untitled.md",
+    "Snippet Examples/Image Flags.md",
+    "Generic Pages/Page Layout Test.md",
+    "Generic Pages/H1 with 2 paragraphs.md",
+    "Generic Pages/Untitled.md",
     "Readme.md",
-    "Test References/Random Damage Type Table.md",
+    "Media/Github code box.png",
+    "Pasted image 20201220121932.png",
+    "@Ideas to test.md",
     "Test References/stopwatch.md",
-    "Readme.pdf",
-    "Readme.md.md",
-    "Untitled.md",
-    "Test Pages/Page Layout Test.md"
+    "Test References/Random Damage Type Table.md"
   ]
 }

@@ -1,0 +1,27 @@
+div.markdown-embed .markdown-preview-view h6 {
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    margin: 0px;
+  }
+
+.markdown-preview-sizer
+{ 
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.markdown-preview-view .markdown-embed-content p:first-child {
+    margin: 0px;
+}
+
+div.markdown-embed-link {
+    visibility: hidden;
+}
+
+/* .markdown-preview-view h6 {
+    position: relative;
+    left: -25px;
+    top: 25px;
+    margin: 0px;
+  } */

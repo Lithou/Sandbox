@@ -1,0 +1,134 @@
+
+
+/* decoration */
+    /*tape */
+        div[alt*="-tape"] {
+            position: relative;
+            float: right;
+            width: 400px;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            transform: rotate(2deg);
+        }
+
+        div[alt*="-tape"]::before {
+            content: "";
+            display: block;
+            position: relative;
+            margin: auto;
+            width: 100px;
+            height: 30px;
+            top: 10px;
+            background: rgba(255, 234, 118, 0.24); /*here you can chosse the scotch tape background*/
+            -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+            -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+            box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+            z-index: 10;
+            clip-path: polygon(50% 0%, 100% 0%, 
+            98% 10%, 100% 20%, 98% 30%, 100% 40%, 98% 50%, 100% 60%, 98% 70%, 100% 80%, 98% 90%,100% 100%,
+            0% 100%, 2% 90%, 0% 80%, 2% 70%, 0% 60%, 2% 50%, 0% 40%, 2% 30%, 0% 20%, 2% 10%, 0% 0%);  
+        }
+        div[alt*="-lg"]::before{
+            width: 100px;
+            height: 30px;
+            top: 10px;
+        }
+
+        div[alt*="-med"]::before{
+            width: 70px;
+            height: 25px;
+            top: 8px;
+        }
+
+        div[alt*="-sm"]::before{
+            width: 45px;
+            height: 15px;
+            top: 5px;
+        }
+    /* Push Pin */
+    div[alt*="-pin"] {
+        position: relative;
+        float: right;
+        width: 400px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(2deg);
+        margin: auto;
+    }
+    div[alt*="-pin"]::before {
+        content: "";
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        background-color: #4588cc;
+        top: -3%;
+        left: 50%;
+        border: solid #336699 8px;
+        border-radius: 50%;
+        box-shadow: #274d74 -3px 3px 1px;
+
+    }
+   /* Oval Cutout */
+
+
+
+
+
+
+
+div[src$="#portraitfixed"]{
+  width: 200px;
+  right: 50px;
+  top: 50px;
+  clip-path: ellipse(32% 45% at 50% 50%);
+}
+
+div[src$="#portrait"]{
+  position: relative;
+  width: 200px;
+  float: right;
+  clip-path: ellipse(32% 45% at 50% 50%);
+}
+
+div[alt*="-side"]{
+position: relative;
+margin: 10px;
+margin-right: 15px;
+margin-top: 5px;
+margin-bottom: 0px;
+box-shadow: 5px -5px 5px grey;
+}
+
+
+
+
+
+
+div[src$="#sideright"]{
+  position: relative;
+  float: right;
+  width: 30%;
+  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  
+  }
+
+
+
+
+/* Orientation and position */
+div[alt*="-left"]{float: left}
+div[alt*="-right"]{float: right}
+div[alt*="-fix"]{position: fixed;}
+div[alt*="-abs"]{position: absolute;}
+
+/* Size */
+div[alt*="-thumb"]{width: 50px;}
+div[alt*="-sm"]{width: 20%;}
+div[alt*="-med"]{width: 35%;}
+div[alt*="-lg"]{width: 50%;}

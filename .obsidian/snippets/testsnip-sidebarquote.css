@@ -1,0 +1,63 @@
+div[src$="-sbq"] {
+    position: relative;
+    float: right;
+    background-color: #6090cc;
+    /* right: -30px; */
+    max-width: 300px;
+    width: 35%;
+    margin: 5px;
+    margin-left: 10px;
+    clip-path: polygon(0% 0%,100% 0%,100% 80%,44% 80%,20% 100%,25% 80%,0% 80%);
+  }
+
+div[src$="-sbq"] div.markdown-embed-link {
+    visibility: hidden;
+}
+
+div[src$="-sbq"] div.markdown-embed {
+    margin: 0px;
+}
+div[src$="-sbq"] .markdown-preview-view{
+    padding: 3px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+
+div[src$="-sbq"] div.markdown-preview-view p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    color: black;
+}
+
+div[src$="-sbqleft"] {
+    position: relative;
+    float: left;
+    background-color: #6090cc;
+    width: 35%;
+    margin: 5px;
+    margin-left: 10px;
+    clip-path: polygon(0% 0%,100% 0%,100% 80%,60% 80%,80% 100%,25% 80%,0% 80%);
+  }
+
+div[src$="-sbqleft"] div.markdown-embed-link {
+    visibility: hidden;
+}
+
+div[src$="-sbqleft"] div.markdown-embed {
+    margin: 0px;
+}
+div[src$="-sbqleft"] .markdown-preview-view{
+    padding: 3px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+
+div[src$="-sbqleft"] div.markdown-preview-view p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    color: black;
+}
