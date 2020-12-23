@@ -3,6 +3,10 @@ cssclass: readme
 
 ---
 
+> **What I'm currently Working on:** Image Flags CSS and Documentation
+
+
+
 
 # The Problem of Perfection
 
@@ -32,14 +36,7 @@ If all you want is a certain snippet, you can navigate to the CSS snippets folde
 ## Testing and Tinkering (clone repo)
 Want to test out a snippet to see how it works? Want to see how multiple snippets behave together? Want to see how a specific theme interacts with snippets or other code? 
 1. Navigate to the main page
-2. Select the dropdown arrow on "Code" ![[test.jpg|-tape -lg]] 
+2. Select the dropdown arrow on "Code" 
 
 These can all be done through cloning the entire repository. 
 This will create a local copy on your hard drive. You can then open the folder as a new obsidian vault: 
-Rerum voluptas ut sit quod pariatur pariatur ut. Dicta adipisci alias laudantium dolorem molestiae vel aliquid maiores. Provident aperiam nisi veritatis vitae unde eos accusantium exercitationem. Soluta eius est error velit reiciendis tenetur nam. Possimus omnis non saepe omnis voluptates reiciendis a quas.
-Rerum voluptas ut sit quod pariatur pariatur ut. Dicta adipisci alias laudantium dolorem molestiae vel aliquid maiores. Provident aperiam nisi veritatis vitae unde eos accusantium exercitationem. Soluta eius est error velit reiciendis tenetur nam. Possimus omnis non saepe omnis voluptates reiciendis a quas.
-
-
-
-![[test.jpg|-tape -sm -left]] 
-Rerum voluptas ut sit quod pariatur pariatur ut. Dicta adipisci alias laudantium dolorem molestiae vel aliquid maiores. Provident aperiam nisi veritatis vitae unde eos accusantium exercitationem. Soluta eius est error velit reiciendis tenetur nam. Possimus omnis non saepe omnis voluptates reiciendis a quas.

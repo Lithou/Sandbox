@@ -4,38 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6d0c16cdd21fc08e",
-        "type": "split",
-        "children": [
-          {
-            "id": "190c629aed841918",
-            "type": "leaf",
-            "dimension": 25.775480059084195,
-            "active": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Snippet Examples/Image Flags.md",
-                "mode": "source"
-              }
-            },
-            "group": "bd8d3a2cf98cb537"
-          },
-          {
-            "id": "f7093e46a26fdee4",
-            "type": "leaf",
-            "dimension": 74.2245199409158,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Snippet Examples/Image Flags.md",
-                "mode": "preview"
-              }
-            },
-            "group": "bd8d3a2cf98cb537"
+        "id": "cd432e2da8c6572b",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Snippet Examples/Image Flags.md",
+            "mode": "preview"
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -75,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 283
   },
   "right": {
     "id": "64ecbd35bd271548",
@@ -123,14 +101,14 @@
   },
   "lastOpenFiles": [
     "Snippet Examples/Image Flags.md",
-    "Generic Pages/Page Layout Test.md",
-    "Generic Pages/H1 with 2 paragraphs.md",
-    "Generic Pages/Untitled.md",
     "Readme.md",
-    "Media/Github code box.png",
-    "Pasted image 20201220121932.png",
+    "Media/ImageFlagsExampleImage1.png",
+    "Pasted image 20201222014606.png",
+    "Generic Pages/H1 with 2 paragraphs.md",
+    "Generic Pages/Book Chapter with Meta Data.md",
+    "Generic Pages/1d10 table (5 col).md",
     "@Ideas to test.md",
-    "Test References/stopwatch.md",
-    "Test References/Random Damage Type Table.md"
+    "Test Pages/Book Chapter with Meta Data.md",
+    "Test Pages/Generic - H1 with 2 paragraphs.md"
   ]
 }

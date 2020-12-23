@@ -1,8 +1,20 @@
+div{
+    --coremarg: 5px;
+    --extramarg: 5px;
+}
 
-
-/* decoration */
+/* Core Flags */
+    /*side */
+        div[alt*="+side"]{
+            position: relative;
+            width: 400px;
+            float: right;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
     /*tape */
-        div[alt*="-tape"] {
+        div[alt*="+tape"] {
             position: relative;
             float: right;
             width: 400px;
@@ -13,7 +25,7 @@
             transform: rotate(2deg);
         }
 
-        div[alt*="-tape"]::before {
+        div[alt*="+tape"]::before {
             content: "";
             display: block;
             position: relative;
@@ -48,87 +60,141 @@
             top: 5px;
         }
     /* Push Pin */
-    div[alt*="-pin"] {
+        div[alt*="+pin"] {
+            position: relative;
+            float: right;
+            width: 400px;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            transform: rotate(2deg);
+            margin: auto;
+        }
+        div[alt*="+pin"]::before {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: #4588cc;
+            top: -3%;
+            left: 50%;
+            border: solid #336699 8px;
+            border-radius: 50%;
+            box-shadow: #274d74 -3px 3px 1px;
+
+        }
+    /*Custom Core Flags */
+        div[alt*="+custom1"]{
+            position: relative;
+            width: 400px;
+            float: right;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        div[alt*="+custom2"]{
+            position: relative;
+            width: 400px;
+            float: right;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+   /* Portrait and Landscape */
+        div[alt*="+portrait"]{
         position: relative;
+        width: 200px;
         float: right;
-        width: 400px;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(2deg);
-        margin: auto;
-    }
-    div[alt*="-pin"]::before {
-        content: "";
-        position: absolute;
-        width: 5px;
-        height: 5px;
-        background-color: #4588cc;
-        top: -3%;
-        left: 50%;
-        border: solid #336699 8px;
-        border-radius: 50%;
-        box-shadow: #274d74 -3px 3px 1px;
+        clip-path: ellipse(32% 45% at 50% 50%);
+        }
+        div[alt*="+landscape"]{
+            position: relative;
+            width: 300px;
+            float: right;
+            clip-path: ellipse(45% 35% at 50% 50%);
+            }
+
+
+    /* Banner and HR */
+    div[alt*="+banner"]{
+        height: 100px;
+        overflow: hidden;
 
     }
-   /* Oval Cutout */
 
+    div[alt*="+banner"]>img{
+        margin-top: -130px;
+        }
 
+    div[alt*="+hr"]{
+        height: 10px;
+        overflow: hidden;
 
+    }
 
-
-
-
-div[src$="#portraitfixed"]{
-  width: 200px;
-  right: 50px;
-  top: 50px;
-  clip-path: ellipse(32% 45% at 50% 50%);
-}
-
-div[src$="#portrait"]{
-  position: relative;
-  width: 200px;
-  float: right;
-  clip-path: ellipse(32% 45% at 50% 50%);
-}
-
-div[alt*="-side"]{
-position: relative;
-margin: 10px;
-margin-right: 15px;
-margin-top: 5px;
-margin-bottom: 0px;
-box-shadow: 5px -5px 5px grey;
-}
-
-
-
-
-
-
-div[src$="#sideright"]{
-  position: relative;
-  float: right;
-  width: 30%;
-  margin: 10px;
-  margin-top: 5px;
-  margin-bottom: 0px;
-  
-  }
-
-
-
+    div[alt*="+hr"]>img{
+        margin-top: -200px;
+        }
+        
 
 /* Orientation and position */
-div[alt*="-left"]{float: left}
-div[alt*="-right"]{float: right}
+div[alt*="-left"]{
+    float: left;
+    margin-right: calc(var(--coremarg)+ var(--extramarg));
+}
+div[alt*="-right"]{
+    float: right;
+    margin-left: var(--extramarg);
+}
 div[alt*="-fix"]{position: fixed;}
 div[alt*="-abs"]{position: absolute;}
 
 /* Size */
-div[alt*="-thumb"]{width: 50px;}
-div[alt*="-sm"]{width: 20%;}
-div[alt*="-med"]{width: 35%;}
-div[alt*="-lg"]{width: 50%;}
+div[alt*="-thumb"]{width: 10%;}
+div[alt*="-sm"]{width: 25%;}
+div[alt*="-med"]{width: 45%;}
+div[alt*="-lg"]{width: 65%;}
+
+
+/* Borders */
+div[alt*="-border1"]>img{border: solid #336699 2px;}
+div[alt*="-border2"]>img{border: solid black 2px;}
+div[alt*="-bradius1"]>img{border-radius: 5px;}
+div[alt*="-bradius2"]>img{border-radius: 20px;}
+div[alt*="-bradiustl"]>img{border-top-left-radius: 20px;}
+div[alt*="-bradiusbr"]>img{border-bottom-right-radius: 20px;}
+div[alt*="-bradiustr"]>img{border-top-right-radius: 20px;}
+div[alt*="-bradiusbl"]>img{border-bottom-left-radius: 20px;}
+div[alt*="-bthick"]>img{border-width: 5px;}
+div[alt*="-bthin"]>img{border-width: 1px;}
+
+/* Div Borders */
+div[alt*="-divborder1"]{border: solid #336699 2px;}
+div[alt*="-divborder2"]{border: solid black 2px;}
+
+
+
+
+div[alt*="-shadow1"]>img{
+    box-shadow: darkgrey -2px 2px 2px;
+
+}
+
+
+div[alt*="-glow"]>img{
+    box-shadow: darkgrey 0px 0px 20px;
+}
+
+
+
+/*
+This is for my own visual effect during editing. Delete after finalization. 
+
+h1 {
+    align-content: center;
+    object-fit: contain;
+    padding-left: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: #336699 2px dotted;
+} */
