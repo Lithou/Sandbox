@@ -31,7 +31,11 @@ Feel free to comment, clone, fork, create pull requests, etc. Ask questions here
 There are a few ways to use this repository. These are based on my intentions as the author. You may have a use outside of these, this is OK (provided it's non-malicious) and feel free to use it your own way and share your methods. That's one of the key ideas 
 
 ## Grabbing a Snippet
-If all you want is a certain snippet, you can navigate to the CSS snippets folder (/.obsidian/snippets) and grab what you need. I've tried to name them appropriately and mark the ones that are done vs the ones that are not. 
+If all you want is a certain snippet, you can navigate to the CSS snippets folder (/.obsidian/snippets) and grab what you need. I've used the following prefixes to indicate files: 
+- Files with the prefix "test-" are pure sandbox. You can poke around in them, but these are random scratch pads of ideas and tests so I don't recomend using them.
+- Files with the prefix "idea-" are ideas that I've had. These are things I haven't developed beyond ideas. 
+- Files with the prefix "pub-" are published. These are open to use, but are still in development. Major changes can still take place, items can be incomplete, and documentation is not complete. 
+- Files with the prefix "z-" are approaching zennith. Minor fixes can occur but have been tested and released. Major changes can still occur, but increasingly unlikely.  
 
 ## Testing and Tinkering (clone repo)
 Want to test out a snippet to see how it works? Want to see how multiple snippets behave together? Want to see how a specific theme interacts with snippets or other code? 

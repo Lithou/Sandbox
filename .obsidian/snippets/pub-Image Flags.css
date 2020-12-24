@@ -1,23 +1,24 @@
 div{
-    --coremarg: 5px;
-    --extramarg: 5px;
+    --coremarg: 5px; 
+    --extramarg: 1%; /* This margin is used for any added margin between items */
+    --defaultwidth: 60%;
 }
 
 /* Core Flags */
     /*side */
         div[alt*="+side"]{
             position: relative;
-            width: 400px;
+            width: var(--defaultwidth);
             float: right;
-            margin-top: 0px;
-            margin-bottom: 0px;
+            margin: 0px;
+            margin-left: var(--extramarg);
         }
         
     /*tape */
         div[alt*="+tape"] {
             position: relative;
             float: right;
-            width: 400px;
+            width: var(--defaultwidth);
             -webkit-transform: rotate(0deg);
             -moz-transform: rotate(0deg);
             -o-transform: rotate(0deg);
@@ -32,8 +33,8 @@ div{
             margin: auto;
             width: 100px;
             height: 30px;
-            top: 10px;
-            background: rgba(255, 234, 118, 0.24); /*here you can chosse the scotch tape background*/
+            top: 12px;
+            background: rgba(255, 234, 118, 0.377); /*here you can chosse the scotch tape background*/
             -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
             -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
             box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
@@ -45,25 +46,28 @@ div{
         div[alt*="-lg"]::before{
             width: 100px;
             height: 30px;
-            top: 10px;
         }
 
         div[alt*="-med"]::before{
             width: 70px;
             height: 25px;
-            top: 8px;
         }
 
         div[alt*="-sm"]::before{
             width: 45px;
             height: 15px;
-            top: 5px;
+            top: 8px;
+        }
+        div[alt*="-thumb"]::before{
+            width: 25px;
+            height: 5px;
+            top: 2px;
         }
     /* Push Pin */
         div[alt*="+pin"] {
             position: relative;
             float: right;
-            width: 400px;
+            width: var(--defaultwidth);
             -webkit-transform: rotate(0deg);
             -moz-transform: rotate(0deg);
             -o-transform: rotate(0deg);
@@ -87,74 +91,87 @@ div{
     /*Custom Core Flags */
         div[alt*="+custom1"]{
             position: relative;
-            width: 400px;
+            width: var(--defaultwidth);
             float: right;
             margin-top: 0px;
             margin-bottom: 0px;
         }
         div[alt*="+custom2"]{
             position: relative;
-            width: 400px;
+            width: var(--defaultwidth);
             float: right;
             margin-top: 0px;
             margin-bottom: 0px;
         }
 
-   /* Portrait and Landscape */
+    /* Portrait and Landscape */
         div[alt*="+portrait"]{
-        position: relative;
-        width: 200px;
-        float: right;
-        clip-path: ellipse(32% 45% at 50% 50%);
-        }
+            position: relative;
+            width: calc(var(--defaultwidth)/2);
+            float: right;
+            /* background-color:blue; This setting will create a border effect of set color */
+            clip-path: ellipse(36% 46% at 50% 50%);}
+        div[alt*="+portrait"]>img{
+            vertical-align: middle;
+            clip-path: ellipse(35% 45% at 50% 50%);}
         div[alt*="+landscape"]{
             position: relative;
-            width: 300px;
+            width: var(--defaultwidth);
             float: right;
-            clip-path: ellipse(45% 35% at 50% 50%);
-            }
-
+            /* background-color:blue; This setting will create a border effect of set color */
+            clip-path: ellipse(46% 36% at 50% 50%);}
+        div[alt*="+landscape"]>img{
+            vertical-align: middle;
+            clip-path: ellipse(45% 35% at 50% 50%);}
 
     /* Banner and HR */
-    div[alt*="+banner"]{
-        height: 100px;
-        overflow: hidden;
+        div[alt*="+banner"]{
+            height: 100px;
+            overflow: hidden;
 
-    }
-
-    div[alt*="+banner"]>img{
-        margin-top: -130px;
         }
 
-    div[alt*="+hr"]{
-        height: 10px;
-        overflow: hidden;
+        div[alt*="+banner"]>img{
+            margin-top: -130px;
+            }
 
-    }
+        div[alt*="+hr"]{
+            height: 10px;
+            overflow: hidden;
+            border-radius: 20px;
 
-    div[alt*="+hr"]>img{
-        margin-top: -200px;
         }
+
+        div[alt*="+hr"]>img{
+            margin-top: -200px;
+            }
         
 
-/* Orientation and position */
-div[alt*="-left"]{
-    float: left;
-    margin-right: calc(var(--coremarg)+ var(--extramarg));
-}
-div[alt*="-right"]{
-    float: right;
-    margin-left: var(--extramarg);
-}
-div[alt*="-fix"]{position: fixed;}
-div[alt*="-abs"]{position: absolute;}
 
-/* Size */
-div[alt*="-thumb"]{width: 10%;}
-div[alt*="-sm"]{width: 25%;}
-div[alt*="-med"]{width: 45%;}
-div[alt*="-lg"]{width: 65%;}
 
+
+
+
+/* Modifier Flags */
+    /* Orientation and position */
+        div[alt*="-left"]{
+            float: left;
+            margin: 0px;
+            margin-right: var(--extramarg);}
+        div[alt*="-right"]{
+            float: right;
+            margin: 0px;
+            margin-left: var(--extramarg);}
+        div[alt*="-fix"]{position: fixed;}
+        div[alt*="-abs"]{position: absolute;}
+
+    /* Size */
+        div[alt*="-thumb"]{width: 11.50%;}
+        div[alt*="-sm"]{width: 24%;}
+        div[alt*="-med"]{width: 32.3333%;}
+        div[alt*="-lg"]{width: 49%;}
+        div[alt*="-huge"]{width: 67%;}
+        div[alt*="-cwidth"]{float: none;margin-left: -10%;width: 120%;}
 
 /* Borders */
 div[alt*="-border1"]>img{border: solid #336699 2px;}
@@ -171,8 +188,9 @@ div[alt*="-bthin"]>img{border-width: 1px;}
 /* Div Borders */
 div[alt*="-divborder1"]{border: solid #336699 2px;}
 div[alt*="-divborder2"]{border: solid black 2px;}
-
-
+div[alt*="-divbradius1"]{border-radius: 5px;}
+div[alt*="-divbradius2"]{border-radius: 20px;}
+div[alt*="-cdivbradius1"]{border-radius: 50px;}
 
 
 div[alt*="-shadow1"]>img{
@@ -185,7 +203,9 @@ div[alt*="-glow"]>img{
     box-shadow: darkgrey 0px 0px 20px;
 }
 
-
+div[alt*="-nofloat"]{
+    float:none
+}
 
 /*
 This is for my own visual effect during editing. Delete after finalization. 
