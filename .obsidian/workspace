@@ -6,29 +6,29 @@
       {
         "id": "e05b3013a0e472fa",
         "type": "leaf",
-        "dimension": 50.065274151436036,
+        "dimension": 47.78393351800554,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Snippet - Image Flags.md",
+            "file": "Readme.md",
             "mode": "source"
           }
         },
-        "group": "6cd26cb03429e6a7"
+        "group": "ea3a9560f8ee0b3e"
       },
       {
-        "id": "cab83c2939d9f4bc",
+        "id": "9064c166fd1039b4",
         "type": "leaf",
-        "dimension": 49.93472584856397,
+        "dimension": 52.21606648199446,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Snippet - Image Flags.md",
+            "file": "Readme.md",
             "mode": "preview"
           }
         },
-        "group": "6cd26cb03429e6a7"
+        "group": "ea3a9560f8ee0b3e"
       }
     ],
     "direction": "vertical"
@@ -105,6 +105,7 @@
       {
         "id": "91bef4082e160413",
         "type": "tabs",
+        "dimension": 74.14741474147415,
         "children": [
           {
             "id": "07dd03a1cf5f8e08",
@@ -112,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snippet - Image Flags.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,12 +121,24 @@
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "593091358a7691d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Readme.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "16c56ecce6e9e06c",
         "type": "tabs",
+        "dimension": 25.85258525852585,
         "children": [
           {
             "id": "50849d80b2158500",
@@ -139,19 +152,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376,
+    "width": 250.62567138671875,
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Snippet - Image Flags.md",
-    "Media/test.jpg",
     "Readme.md",
-    "@todo.md",
-    "Untitled.md",
-    "Current Commit Comments.md",
-    "Snippet Examples/Image Flags.md",
-    "Generic Pages/Page Layout Test.md",
-    "Generic Pages/H1 with 2p and an image.md",
-    "Generic Pages/H1 with 2 paragraphs.md"
+    "Image Flags (Core Documentation).md",
+    "Untitled 1.md",
+    "Image Flags (Extended Documentation) 1.md",
+    "Image Flags (Extended Documentation).md",
+    "Image Flags (Basic).md",
+    "Image Flags (Advanced).md",
+    "Image Flags (Basic) 1.md",
+    "Snippet - Image Flags.md",
+    "Generic Pages/1d10 table (5 col).md"
   ]
 }

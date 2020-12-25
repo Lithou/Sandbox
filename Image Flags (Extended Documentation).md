@@ -20,13 +20,12 @@
 > *last updated: 12/24/2020*
 
 # Overview: 
-This File showcases the "Pub-Image Flags.CSS": 
-
+This document showcases the basic functionality of the "Pub-Image Flags.CSS" snippet. This snippet allows the user to specify how any image is displayed without impacting any other images.
 
 ## Contributions:
 This is a collaboration with several people on the forums. If I missed your name and would like it included, please let me know. 
 
-Thanks to Gabroel, Death_AU, and Klaas for helping make this snippet the best it can be.
+>Thanks to Gabroel, Death_AU, and Klaas for helping make this snippet the best it can be.
 Thanks to Silver and Licat for making Obsidian a great tool 
 
 ---
@@ -42,7 +41,7 @@ Thanks to Silver and Licat for making Obsidian a great tool
 2. Embed an image like normal
 3. add a pipe "|" character to the end of the embedded image filename
 4. Add a "core" flag 
-5. Add any modifier flags to change the baviour of that core element. 
+5. Add any modifier flags to change the behaviour of that core element. 
 
 *Note: Core flags start with a "+" and Modifier flags start with a "-"*
 
@@ -54,21 +53,19 @@ Example: ```![[test.jpg|+coreflag -modifierflag -anothermodifierflag]]```
 
 Placement of the image does matter. Generally you will want to place the image before the paragraph with which you want the image appear in-line. 
 
-You can put a blank line between the image and the paragraph to have the top of the image and the top of the paragraph line up vertically with each other. 
+If you are displaying multiple images that are in-line, they will "read" right to left. So the image listed first will be the furthest to the right. 
 
-If you put the image at the start of the paragraph, the renderer will shift your text down and the top of the paragraph will be a line below the top of the image. This can be desirable when using some ofset images like the "tape" flag. 
-
-For those that are fixed or absolute, I suggest the bottom of the page in case there is any other CSS that relies on number of elements before the first heading.
+As you go, look at this page in "edit mode" to see how the images are called and consequently displayed to get a feel for the syntax. 
 
 ---
-## No Flags (image left unchanged)
+## Starting Out (No Flags = no changes)
 
-If an image is linked with no extra flags, it appears as default without any change to its styling. Enabling the snippet will have no impact on any of these images unless you add flags to them.  
+If you embed an image like usual, it will have no flags. Images linked this way will appear as they always have with no changes to its styling. Thus enabling the snippet will have no impact on any images you already have unless you add flags to them.  
 
 This is the example image we will be using for most examples and is shown without flags: 
 ![[testc.jpg]]
 
-# Core Flags
+# Core Flags (Templates)
 Each of these core flags will call a flavour of decoration and some default values. Think of them as your starting template. These templates can then be further modified with additional flags (discussed below). 
 
 *Note: if you are modifying/tinkering the CSS code, please be aware that the order of the code is important as the items further down will override those further up if both are enabled. Therefore, modifiers are listed later than the core items. *
@@ -84,6 +81,7 @@ By Default it will be floated to the right and have a width of 40% of the page.
 
 This is the most basic core flag and other modifiers are highly encouraged to be used. 
 
+---
 
 ## Tape
 
@@ -91,9 +89,9 @@ This is the most basic core flag and other modifiers are highly encouraged to be
 
 This flag will tilt the image and apply an effect so that the image appears to be attached to the background by a piece of scotch tape. 
 
-By default it is floated to the right and is 400 pixels wide. The [[Snippet - Image Flags#Size Flags|Size]]and [[Snippet - Image Flags#Orientation and Position Flags|Orientation]] flags will override these values. 
+By default it is floated to the right and is 400 pixels wide. The [[Image Flags (Core Documentation)#Size Flags|Size]]and [[Image Flags (Core Documentation)#Orientation and Position Flags|Orientation]] flags will override these values. 
 
-You can also apply [[Snippet - Image Flags#Color Flags]] to the color of the tape, but will need to specify the "::before" element in order to do so. 
+You can also apply [[Image Flags (Core Documentation)#Color Flags]] to the color of the tape, but will need to specify the "::before" element in order to do so. 
 
 ---
 ## Push Pin
@@ -102,9 +100,9 @@ You can also apply [[Snippet - Image Flags#Color Flags]] to the color of the tap
 
 This flag is similar to the tape flag, but will apply an effect that looks like the image is instead held too the background by a push pin. 
 
-It is also by default floated to the right and 400 pixels wide. The [[Snippet - Image Flags#Size Flags|Size]]and [[Snippet - Image Flags#Orientation and Position Flags|Orientation]] flags will override these values. 
+It is also by default floated to the right and 400 pixels wide. The [[Image Flags (Core Documentation)#Size Flags|Size]]and [[Image Flags (Core Documentation)#Orientation and Position Flags|Orientation]] flags will override these values. 
 
-You can also apply [[Snippet - Image Flags#Color Flags]] to the color of the tape, but will need to specify the "::before" element in order to do so. 
+You can also apply [[Image Flags (Core Documentation)#Color Flags]] to the color of the tape, but will need to specify the "::before" element in order to do so. 
 
 ---
 
@@ -183,61 +181,44 @@ The image sizes are such that the images will fill the page width in increasing 
 "-left" will float the image to the left
 "-right" will float the image to the right
 
->Note: *These also add a 1% margin to the opposite side to create a scaling and symmetrical shape.*
+>Note: *These also add a 1% margin to the opposite side to create a scaling and symmetrical shape. It also is accounted for in the size flags.*
 
 ---
 
-## Borders and Shadow
+## Borders
 
 
 
 ### Border1 and Border2
 
-![[testc.jpg|+tape-border1-thumb]]
+![[testc.jpg|+tape-border1-lg]]
 the "-border" flag will add a border to the image. These can also be expanded to multiple user presets and can be modified to suit the users preferences. 
 
-By default, the border will be a solid, 2 pixel wide line that is a light blue color. "-border2" by default is the same, but black in color. 
+By default, "-border1 will be a solid, 2 pixel wide line that is a light blue color. 
+By default, "-border2" is the same, but black in color. 
 
-![[testc.jpg|+tape-border2-sm]]The border will go around the image as opposed to the container (the Div) and will thus go undernieth other effects like the tape effect as pictured. 
+![[testc.jpg|+tape-border2-lg]]The border will go around the image as opposed to the container (the Div) and will thus go undernieth other effects like the tape effect as pictured. 
 
-These can be customized to default to other colors. They can also be further modified as detailed in the following sections. 
-
-<br>
-
----
-
-### DivBorder1 and DivBorder2 (Work In Progress)
-![[testc.jpg|+side -sm -divborder2 -right]]
-
-![[testc.jpg|+side -sm -border2 -right]]
-
-#WiP
-
-Sometime you want the border around the container Div instead of the image. Use the "-divborder1" instead. Compare Border (left) to DivBorder (right) when used with the "+side tag" 
-
-The default values are the same as Border1 and Border2 respectivly except they go around the containing div instead of the image. Divborders are generally useful with the full image is not displayed (like the header or HR elements) For Portrait and Landscape Borders see [[#Borders for Portrait Landscape|Advanced Topics]].
+These can be customized to default to other colors and sizes. They can also be further modified as detailed in the [[Image Flags (Core Documentation)#Borders and Shadow|Advanced Topics]] below
 
 ---
 
-### Rounded Corners
+### Border Radius (Rounded Corners)
 
-![[testc.jpg|-sm -right -border2 -bradius2]]
+![[testc.jpg|-med -right -bradius2]]
 
-![[testc.jpg|-sm -right -border2 -bradius1]]
+![[testc.jpg|-med -right -border1 -bradius2]]
 
-The border can be set to have rounded corners with the "-bradius1" and "-bradius2" flags. The first will set a slight roundedness, while the second will create a larger roundedness. 
+![[testc.jpg|-med border1-bradius1 -nofloat]]
+
+
+The border can be set to have rounded corners with the "-bradius1" and "-bradius2" flags. The first will set a slight roundedness, while the second will create a larger roundedness. These can be used with or without a border and will still round the corners. The second and third picture above are the same except one has a border while the other does not.
 
 ---
+## Before Proceeding: 
+This is the end of the basic flags. If you want to throw up some images of various sizes and have them in-line with your paragraphs this is all you need. There are some more advanced features built in, but they can be overwhelming. 
 
-### Rounded Corners 2: Electric Boogaloo
-
-![[testc.jpg|-sm -right -border2 -bradiustl -bradiusbr]]
-
-![[testc.jpg|-sm -right -border2 -bradiustr -bradiusbl]]
-
-I had to have a little extra fun with border radii. These will set a rounded corner on a single corner. These can be used individually or in pairs. As always feel free to modify the values to fit your needs.
-
-
+Feel free to read through them, however, many will work in a counter intuitive way due to the nature of how Obsidian is rendered and how CSS interacts with it.  
 
 ---
 # FAQ and Other items: 
@@ -258,6 +239,27 @@ You can message me on github or through discord (Lithou#7447). I'm active on the
 This section contains some of flags that are set up for those who want to further customize their snippet. These are optional and are not included in the main list due to the requirement of tweaking and the need for some CSS understanding or for their complexity which can cause confusion or information overload. 
 
 While the normal flags can be used "out of the box" or with some minor setting changes, these are a bit more involved.  
+
+## Advanced Borders
+### Rounded Corners 2: Electric Boogaloo
+
+![[testc.jpg|-lg -right -border2 -bradiustl -bradiusbr]]
+
+![[testc.jpg|-lg -nofloat -border2 -bradiustr -bradiusbl]]
+
+I wanted to have a little extra fun with border radii. These will set a rounded corner on a single corner. These can be used individually or in pairs. As always feel free to modify the values to fit your needs.
+- Top left corner: -bradiustl 
+- Top right corner: -bradiustr
+- Bottom left corner: -bradiusbl
+- Bottom right corner: -bradiusbr
+
+---
+### Borders for Portrait/Landscape
+Having a clip path with also clip any border. Putting a div border will create a square border around the box rather than an elliptical shaped one. 
+
+The way to accomplish a border effect for these is to set the div background color to the desired color then apply the same clip path to the div but 1% larger than the clip path on the image. 
+I have the divs already set up this way by default so setting a background color with a flag will do the trick, but you can alter the clip path if you want to customize the overall shape.
+
 
 
 ## Custom Presets
@@ -329,11 +331,7 @@ In many cases, it is better to use the "< br>" command to create line returns so
 
 
 
-## Borders for Portrait/Landscape
-Having a clip path with also clip any border. Putting a div border will create a square border around the box rather than an elliptical shaped one. 
 
-The way to accomplish a border effect for these is to set the div background color to the desired color then apply the same clip path to the div but 1% larger than the clip path on the image. 
-I have the divs already set up this way by default so setting a background color with a flag will do the trick, but you can alter the clip path if you want to customize the overall shape.
 
 
 
@@ -343,6 +341,6 @@ I have the divs already set up this way by default so setting a background color
 
 |tag|type|description|
 |---|---|---|
-|[[Snippet - Image Flags#Side\|+side]]|core|default flag, floats to right|
+|[[Image Flags (Core Documentation)#Side\|+side]]|core|default flag, floats to right|
 |+tape|core|image taped to background effect|
 |+pin|core|image pinned to background effect

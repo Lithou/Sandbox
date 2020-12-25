@@ -210,8 +210,6 @@ div[alt*="-nofloat"]{
     float:none
 }
 
-/*
-This is for my own visual effect during editing. Delete after finalization. 
 
 h1 {
     align-content: center;
@@ -220,4 +218,4 @@ h1 {
     text-align: center;
     text-transform: capitalize;
     border-bottom: #336699 2px dotted;
-} */
+}
