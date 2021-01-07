@@ -4,27 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "e05b3013a0e472fa",
-        "type": "leaf",
-        "dimension": 47.78393351800554,
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Readme.md",
-            "mode": "source"
+        "id": "15095b7aed39714e",
+        "type": "split",
+        "dimension": 51.698670605612996,
+        "children": [
+          {
+            "id": "e05b3013a0e472fa",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generic CSS Testing.md",
+                "mode": "source"
+              }
+            },
+            "group": "ea3a9560f8ee0b3e"
+          },
+          {
+            "id": "6cf58b5c728f61f8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            },
+            "group": "ea3a9560f8ee0b3e"
           }
-        },
-        "group": "ea3a9560f8ee0b3e"
+        ],
+        "direction": "horizontal"
       },
       {
         "id": "9064c166fd1039b4",
         "type": "leaf",
-        "dimension": 52.21606648199446,
+        "dimension": 48.301329394387,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Readme.md",
+            "file": "Generic CSS Testing.md",
             "mode": "preview"
           }
         },
@@ -40,6 +56,7 @@
       {
         "id": "7128414d6f2dff1e",
         "type": "tabs",
+        "dimension": 69.63490650044524,
         "children": [
           {
             "id": "1e6d06770f851719",
@@ -69,6 +86,7 @@
       {
         "id": "d7b540f908533abb",
         "type": "tabs",
+        "dimension": 30.365093499554764,
         "children": [
           {
             "id": "e92dbfba0982487c",
@@ -92,7 +110,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +124,7 @@
       {
         "id": "91bef4082e160413",
         "type": "tabs",
-        "dimension": 74.14741474147415,
+        "dimension": 63.20754716981132,
         "children": [
           {
             "id": "07dd03a1cf5f8e08",
@@ -113,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Generic CSS Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,17 +147,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Generic CSS Testing.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "16c56ecce6e9e06c",
         "type": "tabs",
-        "dimension": 25.85258525852585,
+        "dimension": 36.79245283018868,
         "children": [
           {
             "id": "50849d80b2158500",
@@ -152,19 +170,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.62567138671875,
-    "collapsed": true
+    "width": 359.3331604003906
   },
   "lastOpenFiles": [
-    "Readme.md",
-    "Image Flags (Core Documentation).md",
+    "Generic CSS Testing.md",
     "Untitled 1.md",
-    "Image Flags (Extended Documentation) 1.md",
+    "Untitled.md",
+    "Image Flags (Core Documentation).md",
+    "Readme.md",
     "Image Flags (Extended Documentation).md",
+    "Image Flags (Extended Documentation) 1.md",
     "Image Flags (Basic).md",
     "Image Flags (Advanced).md",
-    "Image Flags (Basic) 1.md",
-    "Snippet - Image Flags.md",
-    "Generic Pages/1d10 table (5 col).md"
+    "Image Flags (Basic) 1.md"
   ]
 }

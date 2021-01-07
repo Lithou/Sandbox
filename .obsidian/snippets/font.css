@@ -1,0 +1,6 @@
+:root {
+    --default-font: monospace;
+    --mermaid-font: var(--default-font);
+    --reveal-font: var(--default-font);
+    --font-monospace: 'Source Code Pro', monospace;
+}
