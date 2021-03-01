@@ -1,3 +1,7 @@
+---
+cssclass: grid
+---
+
 > *last updated: 12/25/2020*
 # Overview: 
 This document showcases the basic functionality of the "Pub-Image Flags.CSS" snippet. This snippet allows the user to specify how any image is displayed without impacting any other images.
@@ -44,7 +48,8 @@ As you go, look at this page in "edit mode" to see how the images are called and
 
 If you embed an image like usual, it will have no flags. Images linked this way will appear as they always have with no changes to its styling. Thus enabling the snippet will have no impact on any images you already have unless you add flags to them.  
 
-This is the example image we will be using for most examples and is shown without flags: 
+This is the example  image we will be using for most examples and is shown without flags: 
+
 ![[testc.jpg]]
 
 # Core Flags (Templates)
@@ -65,7 +70,8 @@ This is the most basic core flag and other modifiers are highly encouraged to be
 
 ## Tape
 
-![[testc.jpg|+tape]]
+![[test.jpg|+tape]]
+
 This flag will tilt the image and apply an effect so that the image appears to be attached to the background by a piece of scotch tape. 
 
 By Default it is floated to the right and has a width of 60% of the page. 
@@ -99,20 +105,21 @@ The elliptical cutout works best for images that are taller than they are wide. 
 
 ![[testc.jpg|+landscape]]The landscape flag is similar to the portrait flag in that it will create an oval cutout around the image. 
 
-The difference is the oval is shaped to match a landscape image and is thus wider than it is tall.
+The difference is the oval is shaped to match a landscape image and is thus wider than it is tall. 
 
 By Default it is floated to the right and has a width of 60% of the page. 
 
 ---
 ## Banner and HR
-
 ![[testc.jpg|+banner]]
 
 The banner attribute will modify the image into a fixed height banner that takes up 100% of the page width. 
 
 By default it is 100px tall. There is also an default offset value that shifts the image up so that it doesn't start at the top of the image. This can be changed or set to zero based on the type of images you want to use. 
 
+
 ![[testc.jpg|+hr ]]
+
 
 The "+hr" element is similar to the banner, but with a smaller height (10px by default) so that it can act as a divider. (It also has rounded corners by default).
 
@@ -136,14 +143,15 @@ The size flags will resize an image while keeping any other attributes it has.  
 - Medium: 3 across
 - Large: 2 across 
 ### Thumbnail
-"-thumb"  will create a thumbnail size (1/8th of the page) 
-![[testc.jpg|+side-thumb]]![[testc.jpg|+side-thumb]]![[testc.jpg|+side-thumb]]![[testc.jpg|+side-thumb]]![[testc.jpg|+side-thumb]]![[testc.jpg|+side-thumb]]![[testc.jpg|+side-thumb]]![[testc.jpg|+side-thumb]]
+"-thumb"  will create a thumbnail size (1/8th of the page)
+
+![[testc.jpg|+side -thumb]]![[testc.jpg|+side -thumb]]![[testc.jpg|+side -thumb]]![[testc.jpg|+side -thumb]]![[testc.jpg|+side -thumb]]![[testc.jpg|+side -thumb]]![[testc.jpg|+side -thumb]]![[testc.jpg|+side -thumb]]
 
 
 ---
 ### Small:
 "-sm"  will call the small size (1/4th of the page)
-![[testc.jpg|+side -sm]]![[testc.jpg|+side -sm]]![[testc.jpg|+side -sm]]![[testc.jpg|+side -sm -nofloat]]
+![[testc.jpg|+side -sm]]![[testc.jpg|+side -sm]]![[testc.jpg|+side -sm]]![[testc.jpg|+side -sm]]
 
 ---
 ### Medium:
@@ -190,9 +198,9 @@ These borders can be customized to default to other colors and sizes. They can a
 
 ### Border Radius (Rounded Corners)
 
-![[testc.jpg|-med -right -bradius2]]
+![[testc.jpg|+side -med -right -bradius2]]
 
-![[testc.jpg|-med -right -border1 -bradius2]]
+![[testc.jpg|+side -med -right -border1 -bradius2]]
 
 ![[testc.jpg|+side -med -border1 -bradius1 -nofloat]]
 

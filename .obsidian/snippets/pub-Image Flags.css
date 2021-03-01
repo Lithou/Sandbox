@@ -4,77 +4,61 @@ http://github.com/lithou/sandbox
 
 */
 
-div{
+span.image-embed, img{
     --coremarg: 1%; 
     --extramarg: 1%; /* This margin is used for any added margin between items */
     --defaultwidth: 60%; /*This is the default width for core flags such as the "side" and "tape" */
+    --minwidth: 50px; /* This specifies the minimum width that %based width images will go to*/
+    --defaultzoomwidth: 100%; /* this specifies the default width when an image is zoomed in (usually set active which is clicking with mouse) */
+    --defaultscale: 1.5; /* this specifies the default ratio that an image is zoomed in (usually set to hover) */
 }
+
 
 /* Core Flags */
     /*side */
-        div[alt*="+side"]{
-            position: relative;
+        span[alt*="+side"]{
             width: var(--defaultwidth);
+            min-width: var(--minwidth);
             float: right;
             margin: 0px;
             margin-left: var(--coremarg);
         }
+
         
     /*tape */
-        div[alt*="+tape"] {
+
+        span[alt*="+tape"]{
             position: relative;
             float: right;
             width: var(--defaultwidth);
-            margin-left: var(--coremarg);
-            -webkit-transform: rotate(0deg);
-            -moz-transform: rotate(0deg);
-            -o-transform: rotate(0deg);
-            -ms-transform: rotate(0deg);
-            transform: rotate(2deg);
-        }
-
-        div[alt*="+tape"]::before {
-            content: "";
-            display: block;
-            position: relative;
+            min-width: var(--minwidth);
             margin: auto;
-            width: 100px;
-            height: 30px;
-            top: 12px;
+            margin-left: var(--coremarg);
+            transform: rotate(2deg);
+            }
+
+
+        span[alt*="+tape"]::before {
+            content: "";
+            position: absolute;
+            margin: auto;
+            width: 30%;
+            height: 14%;
+            top: -7%;
+            left: 35%;
             background: rgba(255, 234, 118, 0.377); /*here you can chosse the scotch tape background*/
-            -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-            -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-            box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-            z-index: 10;
             clip-path: polygon(50% 0%, 100% 0%, 
             98% 10%, 100% 20%, 98% 30%, 100% 40%, 98% 50%, 100% 60%, 98% 70%, 100% 80%, 98% 90%,100% 100%,
             0% 100%, 2% 90%, 0% 80%, 2% 70%, 0% 60%, 2% 50%, 0% 40%, 2% 30%, 0% 20%, 2% 10%, 0% 0%);  
-        }
-        div[alt*="-lg"]::before{
-            width: 100px;
-            height: 30px;
-        }
+            }
 
-        div[alt*="-med"]::before{
-            width: 70px;
-            height: 25px;
-        }
 
-        div[alt*="-sm"]::before{
-            width: 45px;
-            height: 15px;
-            top: 8px;
-        }
-        div[alt*="-thumb"]::before{
-            width: 25px;
-            height: 5px;
-            top: 2px;
-        }
     /* Push Pin */
-        div[alt*="+pin"] {
+        span[alt*="+pin"] {
             position: relative;
             float: right;
             width: var(--defaultwidth);
+            min-width: var(--minwidth);
             margin: auto;
             margin-left: var(--coremarg);
             -webkit-transform: rotate(0deg);
@@ -82,7 +66,7 @@ div{
             -o-transform: rotate(0deg);
             -ms-transform: rotate(0deg);
             transform: rotate(2deg);}
-        div[alt*="+pin"]::before {
+        span[alt*="+pin"]::before {
             content: "";
             position: absolute;
             width: 5px;
@@ -93,58 +77,72 @@ div{
             border: solid #336699 8px;
             border-radius: 50%;
             box-shadow: #274d74 -5px 3px 1px;}
+
+
     /* Portrait and Landscape */
-        div[alt*="+portrait"]{
-            position: relative;
-            width: calc(var(--defaultwidth)/2);
+        span[alt*="+portrait"]{
             float: right;
-            /* background-color:blue; This setting will create a border effect of set color */
-            clip-path: ellipse(36% 46% at 50% 50%);}
-        div[alt*="+portrait"]>img{
-            vertical-align: middle;
-            clip-path: ellipse(35% 45% at 50% 50%);}
-        div[alt*="+landscape"]{
             position: relative;
-            width: var(--defaultwidth);
-            float: right;
-            /* background-color:blue; This setting will create a border effect of set color */
-            clip-path: ellipse(46% 36% at 50% 50%);}
-        div[alt*="+landscape"]>img{
-            vertical-align: middle;
-            clip-path: ellipse(45% 35% at 50% 50%);}
-
-    /* Banner and HR */
-        div[alt*="+banner"]{
-            height: 100px;
-            overflow: hidden;
-
-        }
-
-        div[alt*="+banner"]>img{
-            margin-top: -130px;
+            width: calc(var(--defaultwidth)/1.5);
+            min-width: var(--minwidth);
+            vertical-align: top;
+            border: solid 5px;
+            background-color: black; /*this is the "border colour around the image */
+            clip-path: ellipse(40% 45% at 50% 50%);
+            }
+        img[alt*="+portrait"]{
+            clip-path: ellipse(40% 45% at 50% 50%);
+            vertical-align: top;
             }
 
-        div[alt*="+hr"]{
+
+        span[alt*="+landscape"]{
+            position: relative;
+            width: var(--defaultwidth);
+            min-width: var(--minwidth);
+            float: right;
+            border: solid 3px;
+            background-color:black; /* This setting will create a border effect of set color */
+            clip-path: ellipse(46% 36% at 50% 50%);
+            }
+        img[alt*="+landscape"]{
+            vertical-align: top;
+            clip-path: ellipse(45% 35% at 50% 50%);
+        }
+
+    /* Banner and HR */
+        span[alt*="+banner"]{
+            display: block;
+            height: 100px;
+            overflow: hidden;
+        }
+
+        span[alt*="+banner"]>img{
+             margin-top: -130px;
+            }
+
+        span[alt*="+hr"]{
+            display: block;
             height: 10px;
             overflow: hidden;
             border-radius: 20px;
 
         }
-
-        div[alt*="+hr"]>img{
+        span[alt*="+hr"]>img{
             margin-top: -200px;
             }
         
 
     /*Custom Core Flags */
-    div[alt*="+custom1"]{
+
+    img[alt*="+custom1"]{
         position: relative;
         width: var(--defaultwidth);
         float: right;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    div[alt*="+custom2"]{
+    img[alt*="+custom2"]{
         position: relative;
         width: var(--defaultwidth);
         float: right;
@@ -153,71 +151,125 @@ div{
     }
 
 
-
+ 
 
 /* Modifier Flags */
     /* Orientation and position */
-        div[alt*="-left"]{
+        span[alt*="-left"]{
             float: left;
             margin: 0px;
             margin-right: var(--extramarg);}
-        div[alt*="-right"]{
+        span[alt*="-right"]{
             float: right;
             margin: 0px;
             margin-left: var(--extramarg);}
-        div[alt*="-fix"]{position: fixed;}
-        div[alt*="-abs"]{position: absolute;}
+        span[alt*="-fix"]{position: fixed;}
+        span[alt*="-abs"]{position: absolute;}
 
     /* Size */
-        div[alt*="-thumb"]{width: 11.50%;}
-        div[alt*="-sm"]{width: 24%;}
-        div[alt*="-med"]{width: 32.3333%;}
-        div[alt*="-lg"]{width: 49%;}
-        div[alt*="-huge"]{width: 67%;}
-        div[alt*="-cwidth"]{float: none;margin-left: -10%;width: 120%;}
+        span[alt*="-thumb"]{width: 11.50%;}
+        span[alt*="-sm"]{width: 24%;}
+        span[alt*="-med"]{width: 32.3333%;}
+        span[alt*="-lg"]{width: 49%;}
+        span[alt*="-huge"]{width: 67%;}
+        span[alt*="-cwidth"]{float: none;margin-left: -10%;width: 120%;}
 
-/* Borders */
-div[alt*="-border1"]>img{border: solid black 3px;}
-div[alt*="-border2"]>img{border: solid white 3px;}
-div[alt*="-bradius1"]>img{border-radius: 5px;}
-div[alt*="-bradius2"]>img{border-radius: 20px;}
-div[alt*="-bradiustl"]>img{border-top-left-radius: 20px;}
-div[alt*="-bradiusbr"]>img{border-bottom-right-radius: 20px;}
-div[alt*="-bradiustr"]>img{border-top-right-radius: 20px;}
-div[alt*="-bradiusbl"]>img{border-bottom-left-radius: 20px;}
-div[alt*="-bthick"]>img{border-width: 5px;}
-div[alt*="-bthin"]>img{border-width: 1px;}
-
-/* Div Borders */
-div[alt*="-divborder1"]{border: solid #336699 2px;}
-div[alt*="-divborder2"]{border: solid black 2px;}
-div[alt*="-divbradius1"]{border-radius: 5px;}
-div[alt*="-divbradius2"]{border-radius: 20px;}
-div[alt*="-cdivbradius1"]{border-radius: 50px;}
+    /* Borders */
+        img[alt*="-border1"]{border: solid black 3px;}
+        img[alt*="-border2"]{border: solid white 3px;}
+        img[alt*="-bradius1"]{border-radius: 5px;}
+        img[alt*="-bradius2"]{border-radius: 20px;}
+        img[alt*="-bradiustl"]{border-top-left-radius: 20px;}
+        img[alt*="-bradiusbr"]{border-bottom-right-radius: 20px;}
+        img[alt*="-bradiustr"]{border-top-right-radius: 20px;}
+        img[alt*="-bradiusbl"]{border-bottom-left-radius: 20px;}
+        img[alt*="-bthick"]{border-width: 5px;}
+        img[alt*="-bthin"]{border-width: 1px;}
 
 
-div[alt*="-shadow1"]>img{
-    box-shadow: darkgrey -2px 2px 2px;
+    /* Shadows */
+    span[alt*="-shadow1"]>img{
+        box-shadow: darkgrey -2px 2px 2px;
+    }
 
+
+    img[alt*="-glow"]{
+        box-shadow: darkgrey 0px 0px 20px;
+    }
+
+    span[alt*="-nofloat"]{
+        display: inline-block;
+        float: unset;
+    }
+
+
+/* Zoom on Hover */
+img[alt*="+side"]:not(:active):hover,
+span[alt*="+portrait"]:not(:active):hover,
+span[alt*="+landscape"]:not(:active):hover{
+transform: scale(1.5);
+}
+
+/* zoom and reverse rotate on hover */
+img[alt*="+tape"]:not(:active):hover,
+img[alt*="+pin"]:not(:active):hover{
+    transform: scale(1.5) rotate(-2deg);
 }
 
 
-div[alt*="-glow"]>img{
-    box-shadow: darkgrey 0px 0px 20px;
+
+/* Grid View */
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+span[alt*="+grid"]{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3px;
 }
 
-div[alt*="-nofloat"]{
-    float:none
+img[alt*="+grid"]{
+    max-height: 30vh;
 }
 
-/*
-This is for my own visual effect during editing. Delete after finalization. 
+img[alt*="+grid"]:hover{
+    transform: scale(1.5);
+}
+/* Grid View Alternative
 
-h1 {
-    align-content: center;
-    object-fit: contain;
-    padding-left: 5px;
-    text-align: center;
-    text-transform: capitalize;
-    border-bottom: #336699 2px dotted;
-} */
+/* I'm adding explaination commments here so you know how this works.
+
+I'm also writing this so next time I edit this code I don't forget why 
+I did it this way and sit there confused for 30mins trying to figure it out. 
+
+BTW. Hello future Lithou. If you're reading this: You're welcome
+
+How it works: 
+This applies to an image if two conditions are met. 
+First condition is if the page has a css class of "grid"
+Second conditions is if no pipe is used when calling an image 
+
+examples: 
+![[test.jpg|alt text]] <-- will not apply as pipe used to make custom alt text
+![[test.jpg]] <-- will apply since no pipe used
+
+When no pipe is used, no alt attribute is called by the user.
+Obsidian will therefore set the alt attribute equal to the file name. (this is default if it changes, this will pobably break so look here first if it stops working)
+This rule will target any image with an alt attribute that has a period in it.
+Since all image files should follow "name.extension" all will contain a period.
+
+Note: One key to keep in mind is to not use a period as part of any other img flags. */
+
+.img-grid span.image-embed[alt*="."]{ 
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3px;
+}
+.img-grid img[alt*="."]{
+    max-height: 30vh;
+}
+
+.img-grid img[alt*="."]:hover{
+    transform: scale(1.5);
+}

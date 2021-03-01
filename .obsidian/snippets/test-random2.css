@@ -1,0 +1,102 @@
+.mod-root #calendar-container, .markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+    max-width: 1000px;
+    --line-width: 100%;
+    padding: 0px 20px;
+
+    /* column-count: 2;
+    column-gap: 20px; */
+    /* background-color: darkblue; */
+    /* background-image: url("app://local/C%3A%5CUsers%5CLithou%5CGit%5CSandbox%5CMedia%5Cparchment.jpg?1613974076545") */
+}
+
+div.markdown-preview-sizer{}
+
+
+.markdown-preview-sizer>div>p{
+        display: grid;
+        grid-auto-flow: column dense;
+        grid-gap: 0px;
+        justify-content:start;
+        align-content:center;
+        /* background-color: #2196F3; */
+        padding: 10px;
+        }
+
+@media only screen and (max-width: 700px) {
+    .markdown-preview-sizer>div>p{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        justify-content:start;
+        align-content:center;
+        background-color: #2196F3;
+        padding: 10px;
+        }
+    }
+@media only screen and (max-width: 500px){.markdown-preview-sizer>div>p{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    justify-content:start;
+    align-content:center;
+    background-color: #2196F3;
+    padding: 10px;
+        }
+    }
+
+@media only screen and (max-width: 300px){.markdown-preview-sizer>div>p{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    justify-content:start;
+    align-content:center;
+    background-color: #2196F3;
+    padding: 10px;
+        }
+    }
+
+.markdown-preview-view h1 {
+    width: 100%;
+    background-color: black;
+}
+
+h1[data-heading^="Page"],h1[data-heading^="page"]{
+    display: none;
+    -webkit-column-break-after: always;
+}
+
+.markdown-preview-view h2 {
+    color: darkred;
+    flex: 1 0 50%;
+    display: inline;
+    padding-right: 50px;
+    text-transform: uppercase;
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 0px;
+    border-bottom: 2px solid darkred;
+}
+
+.markdown-preview-view h3 {
+    color: darkred;
+    display: inline-flex;
+    text-transform: capitalize;
+    text-decoration: darkred dotted 2px;
+    /* text-decoration-style: dotted; */
+}
+
+span.image-embed{
+    /* flex-wrap: wrap; */
+    align-self: center;
+    margin: 2px;
+}
+
+span[alt*="+grid1"]{
+    padding: 5px;
+}
+span[alt*="+grid2"]{
+    padding: 5px;
+    min-width: 20%;
+}
+
+
