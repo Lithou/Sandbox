@@ -1,0 +1,26 @@
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+    background-color: darkblue
+}
+.cm-s-obsidian span.cm-inline-code {
+    background-color: darkblue;
+}
+
+
+.graph-view.color-fill {
+    color: darkolivegreen;
+  }
+
+
+.graph-controls {
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    padding: 8px 16px 8px 8px;
+    background-color: purple;
+    min-width: 140px;
+    max-width: 240px;
+    border: 4px solid var(--background-modifier-border);
+    border-radius: 0px;
+    max-height: calc(100% - 16px);
+    overflow: auto;
+  }
