@@ -11,7 +11,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Snippet Documentation and Examples/Grid Display Testing.md",
+            "file": "VIM mode/Specific Vim Commands.md",
             "mode": "source"
           }
         },
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Snippet Documentation and Examples/Grid Display Testing.md",
+            "file": "VIM mode/Specific Vim Commands.md",
             "mode": "preview"
           }
         },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snippet Documentation and Examples/Grid Display Testing.md",
+                "file": "VIM mode/Specific Vim Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snippet Documentation and Examples/Grid Display Testing.md"
+                "file": "VIM mode/Specific Vim Commands.md"
               }
             }
           }
@@ -159,15 +159,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "VIM mode/Untitled.md",
+    "CSS Info/Lets Get Specific about CSS Rules.md",
+    "CSS Info/Untitled.md",
     "Snippet Documentation and Examples/Grid Display Testing.md",
     "@Ideas to test.md",
     "@Current Commit Comments.md",
     "Work in Progress/Page Layout Test.md",
     "Readme.md",
     "Generic Pages for testing/stopwatch.md",
-    "Generic Pages for testing/paragraph with one portrait and one landscape image.md",
-    "Generic Pages for testing/Page Layout Test.md",
-    "Generic Pages for testing/H1 with 2p and an image.md",
-    "Generic Pages for testing/H1 with 2 paragraphs.md"
+    "Generic Pages for testing/paragraph with one portrait and one landscape image.md"
   ]
 }

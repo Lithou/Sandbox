@@ -273,3 +273,10 @@ Note: One key to keep in mind is to not use a period as part of any other img fl
 .img-grid img[alt*="."]:hover{
     transform: scale(1.5);
 }
+
+
+:not(H1,h2){
+    border-style: solid;
+    border-color: #000033;
+    border-width: 3px;
+}
