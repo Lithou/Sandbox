@@ -219,10 +219,7 @@ img[alt*="+pin"]:not(:active):hover{
 
 
 /* Grid View */
-table{
-    table-layout: fixed;
-    width: 100%;
-}
+
 span[alt*="+grid"]{
     display: table-cell;
     vertical-align: middle;

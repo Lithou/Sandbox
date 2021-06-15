@@ -6,12 +6,11 @@
       {
         "id": "93958cf2a51ab4e3",
         "type": "leaf",
-        "dimension": 35.053763440860216,
-        "active": true,
+        "dimension": 32.53333333333333,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "VIM mode/Specific Vim Commands.md",
+            "file": "Snippet Documentation and Examples/Grid Display Testing.md",
             "mode": "source"
           }
         },
@@ -20,11 +19,11 @@
       {
         "id": "d15929f6baefe240",
         "type": "leaf",
-        "dimension": 64.94623655913978,
+        "dimension": 67.46666666666667,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "VIM mode/Specific Vim Commands.md",
+            "file": "Snippet Documentation and Examples/Grid Display Testing.md",
             "mode": "preview"
           }
         },
@@ -116,10 +115,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VIM mode/Specific Vim Commands.md",
+                "file": "Snippet Documentation and Examples/Grid Display Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -131,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VIM mode/Specific Vim Commands.md"
+                "file": "Snippet Documentation and Examples/Grid Display Testing.md"
               }
             }
           }
@@ -158,16 +159,17 @@
     "width": 413,
     "collapsed": true
   },
+  "active": "93958cf2a51ab4e3",
   "lastOpenFiles": [
+    "Snippet Documentation and Examples/Grid Display Testing.md",
+    "Snippet Documentation and Examples/Image Flags (Core Documentation).md",
+    "Generic Pages for testing/paragraph with one portrait and one landscape image.md",
+    "VIM mode/Specific Vim Commands.md",
     "VIM mode/Untitled.md",
     "CSS Info/Lets Get Specific about CSS Rules.md",
     "CSS Info/Untitled.md",
-    "Snippet Documentation and Examples/Grid Display Testing.md",
     "@Ideas to test.md",
     "@Current Commit Comments.md",
-    "Work in Progress/Page Layout Test.md",
-    "Readme.md",
-    "Generic Pages for testing/stopwatch.md",
-    "Generic Pages for testing/paragraph with one portrait and one landscape image.md"
+    "Work in Progress/Page Layout Test.md"
   ]
 }

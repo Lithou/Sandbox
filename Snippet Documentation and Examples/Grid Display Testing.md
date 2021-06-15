@@ -52,7 +52,7 @@ Below as an example are, from left to right:
 - a medium res portrait image 
 
 
-![[herald.png|+grid -border2]]![[plate.jpg|+grid]]![[wood.jpg|+grid -glow]]![[testc.jpg|+grid]]![[avatar.jpg|+grid]]
+![[herald.png|+grid -border2]]![[plate.jpg|+grid -sm]]![[wood.jpg|+grid -glow]]![[testc.jpg|+grid]]![[avatar.jpg|+grid]]
 
 Note: This method also allows for combining of flags. In the example above, the first image has a border flag added while the middle image has a "glow" flag added.
 
