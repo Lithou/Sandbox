@@ -1,0 +1,15 @@
+/* Remove markdown clutter */
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting,
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-string.cm-url,
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-link
+{ display: none; }
+
+
+
+/* and task checkboxes */
+  span.cm-formatting-task { display: inline !important; font-family: monospace; }
+
+/* highlight == markdown not visible anymore if not active line */
+/* div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-formatting-highlight.cm-highlight { */
+  /* font-size: 0; */
+}
