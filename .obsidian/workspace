@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Snippet Documentation and Examples/Grid Display Testing.md",
+            "file": "Readme.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Snippet Documentation and Examples/Grid Display Testing.md",
+            "file": "Readme.md",
             "mode": "preview"
           }
         },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snippet Documentation and Examples/Grid Display Testing.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,6 +161,8 @@
   },
   "active": "93958cf2a51ab4e3",
   "lastOpenFiles": [
+    "Readme.md",
+    "Generic CSS Testing.md",
     "Snippet Documentation and Examples/Grid Display Testing.md",
     "Snippet Documentation and Examples/Image Flags (Core Documentation).md",
     "Generic Pages for testing/paragraph with one portrait and one landscape image.md",
@@ -168,8 +170,6 @@
     "VIM mode/Untitled.md",
     "CSS Info/Lets Get Specific about CSS Rules.md",
     "CSS Info/Untitled.md",
-    "@Ideas to test.md",
-    "@Current Commit Comments.md",
-    "Work in Progress/Page Layout Test.md"
+    "@Ideas to test.md"
   ]
 }
