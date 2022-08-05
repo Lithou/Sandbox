@@ -69,9 +69,7 @@ This is the most basic core flag and other modifiers are highly encouraged to be
 ---
 
 ## Tape
-
-![[test.jpg|+tape]]
-
+![[test.jpg|+tape -med]]
 This flag will tilt the image and apply an effect so that the image appears to be attached to the background by a piece of scotch tape. 
 
 By Default it is floated to the right and has a width of 60% of the page. 
@@ -81,9 +79,7 @@ Size Modifiers will also change the size of the piece of tape so that it scales 
 ---
 ## Push Pin
 
-![[testc.jpg|+pin]]
-
-This flag is similar to the tape flag, but will apply an effect that looks like the image is instead held too the background by a push pin. 
+![[testc.jpg|+pin]]This flag is similar to the tape flag, but will apply an effect that looks like the image is instead held too the background by a push pin. 
 
 By Default it is floated to the right and has a width of 60% of the page. 
 
@@ -93,8 +89,7 @@ Given the size of push pin effect, It is not recommended to use with the thumbna
 
 ## Portrait
 
-![[avatar.jpg|+portrait]]
-The portrait flag will create an oval cutout around the image and float it to the right. This is most often used for pictures of real or fictional characters at the top of a biographical page although it can be used however you would like. 
+![[avatar.jpg|+portrait]]The portrait flag will create an oval cutout around the image and float it to the right. This is most often used for pictures of real or fictional characters at the top of a biographical page although it can be used however you would like. 
 
 By Default it is floated to the right and has a width of 30% of the page.  (half of normal default width)
 
@@ -156,12 +151,12 @@ The size flags will resize an image while keeping any other attributes it has.  
 ---
 ### Medium:
 "-med" will call the medium size (1/3rd of the page)
-	![[testc.jpg|+side -med]]![[testc.jpg|+side -med]]![[testc.jpg|+side -med -nofloat]]
+![[testc.jpg|+side -med]]![[testc.jpg|+side -med]]![[testc.jpg|+side -med]]
 
 ---
 ### Large: 
 "-lg" will call the large size (half of the page)
-	![[testc.jpg|+side-lg]]![[testc.jpg|+side-lg -nofloat]]
+![[testc.jpg|+side-lg]]![[testc.jpg|+side-lg]]
 
 ---
 
@@ -182,14 +177,14 @@ The size flags will resize an image while keeping any other attributes it has.  
 
 ## Borders
 ### Border1 and Border2
-![[testc.jpg|+tape-border1-lg]]
+![[testc.jpg|+side -border1-lg]]
 the "-border1" and the "-border2" flags will add a border to the image. 
 
 "-border1" by default, will be a solid line that is two pixel wide. It is also by default black in color
 
 "-border2" by default is the same as "-border1" but is white instead of black. 
 
-![[testc.jpg|+tape-border2-lg]]
+![[testc.jpg|+side-border2-lg]]
 The border will go around the image as opposed to the container (the Div) and will thus go underneath other effects like the tape effect as pictured. 
 
 These borders can be customized to default to other colors and sizes. They can also be further modified as detailed in the [[Image Flags (Extended Documentation)|Extended Docmentation]]

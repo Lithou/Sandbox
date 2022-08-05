@@ -25,5 +25,6 @@
   "showLineNumber": true,
   "enabledPlugins": [
     "obsidian-advanced-appearance"
-  ]
+  ],
+  "defaultViewMode": "source"
 }

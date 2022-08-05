@@ -6,28 +6,30 @@
       {
         "id": "93958cf2a51ab4e3",
         "type": "leaf",
-        "dimension": 32.53333333333333,
+        "dimension": 50.06775067750677,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Readme.md",
-            "mode": "source"
+            "file": "Snippet Documentation and Examples/Image Flags (Core Documentation).md",
+            "mode": "source",
+            "source": false
           }
         },
-        "group": "38b9ad05d06f4ad5"
+        "group": "4dc292ebdc796777"
       },
       {
-        "id": "d15929f6baefe240",
+        "id": "efffe9ba83e22c1e",
         "type": "leaf",
-        "dimension": 67.46666666666667,
+        "dimension": 49.93224932249323,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Readme.md",
-            "mode": "preview"
+            "file": "Snippet Documentation and Examples/Image Flags (Core Documentation).md",
+            "mode": "preview",
+            "source": false
           }
         },
-        "group": "38b9ad05d06f4ad5"
+        "group": "4dc292ebdc796777"
       }
     ],
     "direction": "vertical"
@@ -78,7 +80,8 @@
               "type": "markdown",
               "state": {
                 "file": "@Current Commit Comments.md",
-                "mode": "source"
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -89,7 +92,8 @@
               "type": "markdown",
               "state": {
                 "file": "@todo.md",
-                "mode": "source"
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -98,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 360,
+    "collapsed": true
   },
   "right": {
     "id": "64ecbd35bd271548",
@@ -115,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Snippet Documentation and Examples/Image Flags (Core Documentation).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,15 +166,15 @@
   },
   "active": "93958cf2a51ab4e3",
   "lastOpenFiles": [
+    "Work in Progress/Page Layout Test.md",
+    "VIM mode/Specific Vim Commands.md",
+    "Snippet Documentation and Examples/Image Flags (FAQ).md",
+    "Snippet Documentation and Examples/Image Flags (Extended Documentation).md",
+    "Snippet Documentation and Examples/Image Flags (Core Documentation).md",
+    "Snippet Documentation and Examples/Grid Display Testing.md",
+    "Snippet Documentation and Examples/Image Flags (Quick Reference).md",
     "Readme.md",
     "Generic CSS Testing.md",
-    "Snippet Documentation and Examples/Grid Display Testing.md",
-    "Snippet Documentation and Examples/Image Flags (Core Documentation).md",
-    "Generic Pages for testing/paragraph with one portrait and one landscape image.md",
-    "VIM mode/Specific Vim Commands.md",
-    "VIM mode/Untitled.md",
-    "CSS Info/Lets Get Specific about CSS Rules.md",
-    "CSS Info/Untitled.md",
-    "@Ideas to test.md"
+    "Generic Pages for testing/paragraph with one portrait and one landscape image.md"
   ]
 }
