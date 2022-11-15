@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "92ddecd0f852b8b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b9e0e8d3716dd08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93958cf2a51ab4e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Snippet Documentation and Examples/Image Flags (Core Documentation).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ee3c2f5bb0478b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS Info/Lets Get Specific about CSS Rules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f41d3f87766f034",
+    "type": "split",
+    "children": [
+      {
+        "id": "7128414d6f2dff1e",
+        "type": "tabs",
+        "dimension": 64.92411467116358,
+        "children": [
+          {
+            "id": "1e6d06770f851719",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "174ca30db77593a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d7b540f908533abb",
+        "type": "tabs",
+        "dimension": 35.07588532883643,
+        "children": [
+          {
+            "id": "e92dbfba0982487c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "@Current Commit Comments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd432e2da8c6572b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "@todo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 360
+  },
+  "right": {
+    "id": "64ecbd35bd271548",
+    "type": "split",
+    "children": [
+      {
+        "id": "91bef4082e160413",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07dd03a1cf5f8e08",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CSS Info/Lets Get Specific about CSS Rules.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "593091358a7691d6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CSS Info/Lets Get Specific about CSS Rules.md"
+              }
+            }
+          },
+          {
+            "id": "50849d80b2158500",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 413
+  },
+  "active": "8ee3c2f5bb0478b6",
+  "lastOpenFiles": [
+    "@todo.md",
+    "CSS Info/Lets Get Specific about CSS Rules.md",
+    "Snippet Documentation and Examples/Image Flags (Core Documentation).md",
+    "Obsidian.md",
+    "@Current Commit Comments.md",
+    "Work in Progress/Page Layout Test.md",
+    "VIM mode/Specific Vim Commands.md",
+    "Snippet Documentation and Examples/Image Flags (FAQ).md",
+    "Snippet Documentation and Examples/Image Flags (Extended Documentation).md",
+    "Snippet Documentation and Examples/Grid Display Testing.md"
+  ]
+}

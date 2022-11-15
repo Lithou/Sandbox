@@ -1,0 +1,53 @@
+
+.theme-light{
+	--color-blue: #336699;
+	--background-primary: #F0EAD6;
+	--color-base-10: #E0DAC6;
+}
+.inline-title{
+	font-family: var(--font-monospace-default);
+	color: var(--color-accent);
+}
+
+
+div.HyperMD-header-1 {
+	border-bottom: solid 2px var(--color-blue);
+	color: var(--color-blue);
+}
+.markdown-rendered h1{
+	background-color: var(--color-blue);
+	color: #DDD;
+	border: 0px solid #DDD;
+	border-bottom: 3px solid #DDD;
+	position: relative;
+	left: -150px;
+	width: 125%;
+	padding-left: 100px;
+	padding-bottom: 5px;
+	border-top-right-radius: 24px;
+	margin-top: 75px;
+}
+
+
+
+div.markdown-preview-view {
+	/* background-color: #f0ead6; */
+}
+
+
+.markdown-rendered h2{
+	color: var(--color-blue);
+	border-bottom: 2px solid var(--color-blue);
+	left: -25px;
+	position: relative;
+}
+
+
+div.HyperMD-header-2 {
+	color: var(--color-blue);
+}
+
+.markdown-rendered h3{
+	color: var(--color-blue);
+	text-transform: uppercase;
+}

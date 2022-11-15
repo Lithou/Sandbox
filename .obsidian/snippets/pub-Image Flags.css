@@ -30,10 +30,10 @@ span.image-embed, div.image-embed, img{
     --sizefullwidth: 120%;
 
     /* Other Dimensions */
-    --coremarg: 1%; /* This is the base margin placed between images. */
-    --extramarg: 1%; /* This margin is used for any added margin between items. Default 1% */
-    --defaultwidth: 49%; /*This is the width for core flags such as the "side" and "tape" if no size modifier flags are used Default 49% <- this will be half of the screen space since the margin will take up the other 1-2% */
-    --PLdefaultsize: 30%; /* This is the amount that the ellipse shape of the +portrait and +landscape flags gets flattened in the narrower dimension. Default: 30% */
+    --coremarg: 1%; 				/* This is the base margin placed between images. */
+    --extramarg: 1%; 				/* This margin is used for any added margin between items. Default 1% */
+    --defaultwidth: 49%; 			/*This is the width for core flags such as the "side" and "tape" if no size modifier flags are used Default 49% <- this will be half of the screen space since the margin will take up the other 1-2% */
+    --PLdefaultsize: 30%; 			/* This is the amount that the ellipse shape of the +portrait and +landscape flags gets flattened in the narrower dimension. Default: 30% */
     --PLdefaultsize2: 45%; /*This is the amount that the ellipse shape of the +portrait and +landscape flags gets flattened in the wider dimension. Default: 45% */
     --PLborder: 1%; /*This is the amount of bg that is visible for the +landscape and +portrait flags. Visually this will appear like a border. Default 1% */
     --minwidth: 50px; /* This specifies the minimum width that %based width images will go to. This prevents images from becoming practically invisible as the window is scaled down. Default 50px */

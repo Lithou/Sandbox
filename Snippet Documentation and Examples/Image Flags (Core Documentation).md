@@ -2,15 +2,15 @@
 cssclass: grid
 ---
 
-> *last updated: 12/25/2020*
+
 # Overview: 
+
+> *last updated: 06/29/2022*
+
 This document showcases the basic functionality of the "Pub-Image Flags.CSS" snippet. This snippet allows the user to specify how any image is displayed without impacting any other images.
 
 ## Contributions:
-This is a collaboration with several people on the forums. If I missed your name and would like it included, please let me know. 
-
->Thanks to Gabroel, Death_AU, and Klaas for helping make this snippet the best it can be.
-Thanks to Silver and Licat for making Obsidian a great tool 
+This is a collaboration with several people on the forums. If I missed your name and would like it included, please let me know.  Thanks to Gabroel, Death_AU, and Klaas for helping make this snippet the best it can be. Also thanks to Silver and Licat for making Obsidian a great tool 
 
 ---
 
@@ -69,6 +69,7 @@ This is the most basic core flag and other modifiers are highly encouraged to be
 ---
 
 ## Tape
+
 ![[test.jpg|+tape -med]]
 This flag will tilt the image and apply an effect so that the image appears to be attached to the background by a piece of scotch tape. 
 

@@ -1,7 +1,10 @@
 {
   "enabledCssSnippets": [
-    "pub-Image Flags"
+    "pub-Image Flags",
+    "basic-colour"
   ],
   "cssTheme": "",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "accentColor": "",
+  "theme": "moonstone"
 }

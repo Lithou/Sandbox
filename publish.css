@@ -1,0 +1,190 @@
+.theme-light{
+	--color-blue: #336699;
+	--eggshell: #F0EAD6;
+	--background-primary: var(--eggshell);
+	--background-primary-alt: #E0DAC6;
+	
+	--color-base-10: #E0DACF;
+}
+
+div.site-footer{
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+	line-height: 18px;
+	height: 18px;
+
+}
+.page-header{
+	height: 60px;
+	line-height: 40px;
+	margin-bottom: 50px;
+	font-family: var(--font-monospace-default);
+	color: var(--color-accent);
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	left: 0px;
+	padding: 10px 0px;
+	background-color: var(--background-secondary-alt);
+	overflow-x: hidden;
+	overflow-wrap: normal;
+}
+
+.published-container .markdown-preview-view{
+	padding: 0px 25px 15px 25px;
+	background-color: var(--background-secondary-alt);
+	overflow-x: hidden;
+}
+.nav-view-outer .tree-item-self.mod-active {
+	background-color: var(--background-primary-alt);
+}
+
+div.published-container div.markdown-preview-sizer{
+	margin-left: 0px;
+	background-color: var(--background-primary);
+	padding: 0px 25px;
+	}
+div.site-body div.site-body-center-column div.render-container div.render-container-inner div.publish-renderer div.markdown-preview-view div.markdown-preview-sizer>div:nth-child(3){
+	margin-top: 70px;
+}
+div.callout{
+	background-color: rgba(var(--callout-color), 0.2);
+}
+.theme-light :not(pre) > code[class*="language-"], .theme-light pre[class*="language-"]{
+  background-color: var(--background-primary-alt);
+	border-radius: 10px;
+
+	
+}
+.theme-light pre[class*="language-"] code{
+		text-shadow: none;
+}
+
+.theme-light :not(pre) > code{
+	border-radius: 4px;
+	padding: 0px 2px;
+}
+
+body .site-body-left-column{
+  border: none;
+	padding: 0px;
+	padding-bottom: 8px;
+	background-color: var(--background-primary);
+}
+
+body .site-body-left-column .nav-view-outer {
+	margin-right: 0px;
+	height: 100%;
+  border-bottom: solid 7px var(--background-secondary-alt);
+	border-top: solid 7px var(--background-secondary-alt);
+	padding-right: 15px;
+
+}
+
+body .site-body-left-column, body .site-body-right-column{
+	flex: 2 2 20%;
+}
+
+
+body .published-container.is-readable-line-width .site-body-center-column {
+  flex: 7 7 50%;
+}
+
+div.markdown-rendered{
+	line-height: 1.3em;
+}
+
+.markdown-rendered h1{
+	background-color: var(--color-blue);
+	font-size: 1.3em;
+	color: #DDD;
+	position: relative;
+	left: -50px;
+	padding: 3px 0px 3px 15px;
+	border-top-right-radius: 20px;
+	margin-top: 75px;
+}
+
+.markdown-rendered h2{
+	color: var(--color-blue);
+	border-bottom: 2px solid var(--color-blue);
+	left: -25px;
+	position: relative;
+	padding: 5px 25px;
+	font-size: 1.5em;
+}
+
+.markdown-rendered h3{
+	color: var(--color-blue);
+	text-transform: uppercase;
+	margin-top: 25px;
+	
+}
+
+@media screen and (max-width: 1000px){
+	.published-container .markdown-preview-view{
+		padding: 0px 0px 0px 25px;
+		background-color: var(--background-secondary-alt);
+	}
+	div.published-container div.markdown-preview-sizer{
+		margin-left: 0px;
+	}
+	.page-header{
+		font-size: 1.1em;
+	}
+	.markdown-rendered h1{
+		left: -50px;
+		padding: 0px 0px 0px 5px;
+		font-size: 1.1em;
+	}
+	.markdown-rendered h2{
+		left: -25px;
+		padding: 0px 0px 0px 10px;
+		font-size: 1.1em;
+	}
+	div.site-footer{
+		font-size: 0.6em;
+		height: 18px;
+  }
+	body .site-body-left-column{
+	padding-bottom: 8px;
+  }
+
+}
+
+
+@media screen and (max-width: 750px){
+	.published-container .markdown-preview-view{
+		padding: 0px 0px 0px 25px;
+		background-color: var(--background-secondary-alt);
+	}
+	div.published-container div.markdown-preview-sizer{
+		margin-left: 0px;
+		background-color: var(--background-primary);
+		padding: 0px 15px;
+	}
+	.page-header{
+		font-size: 1.0em;
+	}
+	.markdown-rendered h1{
+		left: -40px;
+		padding: 0px 0px 0px 10px;
+		font-size: 1.0em;
+		margin-top: 35px;
+	}
+	.markdown-rendered h2{
+		left: -15px;
+		padding: 0px 0px 0px 15px;
+		font-size: 1.0em;
+	}
+	div.callout-title{
+		padding: 1px;
+	}
+	div.site-footer{
+    display: none;
+  }
+	body .site-body-left-column{
+	padding-bottom: 0px;
+  }
+}
